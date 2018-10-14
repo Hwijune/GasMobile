@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dip"
+    android:layout_height="480dip">
+    <ListView
+        android:id="@+id/notilist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/closenoti"></ListView>
+    <Button
+        android:id="@+id/closenoti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="close"
+        android:background="@color/myblue"
+        android:textColor="#ffffff"
+        android:text="다봤어요!"/>
+
+</RelativeLayout>

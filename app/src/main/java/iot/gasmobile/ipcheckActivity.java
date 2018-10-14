@@ -18,7 +18,7 @@ public class ipcheckActivity extends AppCompatActivity {
 
         et = (EditText)findViewById(R.id.ipaddr);
     }
-
+//
     public void gomain(View view){
         final Intent intent3 = new Intent(this, MainActivity.class);
         String ipaddr = String.valueOf(et.getText());
